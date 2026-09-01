@@ -16,12 +16,14 @@ public class diceroller
 
         System.out.println("What sided dice would you like to roll?");
 
-        String dice = input.nextLine();
+        Integer dice = input.nextInt();
 
         System.out.println("Rolling a " + dice + " sided dice.");
 
-        int randomnumber = (int)(Math.random() * Integer.parseInt(dice) + 1); 
+        int randomnumber = (int)(Math.random() * dice + 1); 
 
         System.out.println("You rolled a " + randomnumber + "!");
+
+        input.close();
     }
 }
