@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Dealership",
+            "request": "launch",
+            "mainClass": "Assignment6.Dealership",
+            "projectName": "CS 67_7d33ad28"
+        },
+        {
+            "type": "java",
+            "name": "Dealership (Assignment6)",
+            "request": "launch",
+            "mainClass": "Assignment6.Dealership",
+            "projectName": "CS 67"
+        }
+    ]
+}

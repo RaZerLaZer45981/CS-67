@@ -1,0 +1,13 @@
+{
+    "java.jdt.ls.java.home": "C:\\Users\\sethm\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-25.0.4.101-hotspot",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-25",
+            "path": "C:\\Users\\sethm\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-25.0.4.101-hotspot",
+            "default": true
+        }
+    ],
+    "code-runner.executorMap": {
+        "java": "cd $dir && \"C:\\Users\\sethm\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-25.0.4.101-hotspot\\bin\\javac.exe\" $fileName && \"C:\\Users\\sethm\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-25.0.4.101-hotspot\\bin\\java.exe\" -cp $dir $fileNameWithoutExt"
+    }
+}
